@@ -2,6 +2,10 @@
 
 Peer Connect is a decentralized social media platform built on the Ethereum blockchain. Users can create and share posts, tip posts with Ether, and view posts ordered by the number of tips received. This ensures that the most appreciated content is always at the top, fostering a community-driven content curation system.
 
+
+https://github.com/user-attachments/assets/d52a83d5-fd3f-4951-9c8c-00f771543136
+
+
 ## Features
 
 - **Create Posts**: Users can create and share posts with the community.
