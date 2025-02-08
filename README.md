@@ -74,9 +74,9 @@ Peer Connect is a decentralized social media platform built on the Ethereum bloc
     truffle test
     ```
 
-## Add posts
+## Add posts and tip them
 
-To add posts to the Social Network DApp using the Truffle console, follow these steps:
+To add posts to the Social Network DApp and then tip them, follow these steps:
 
 1. **Start Ganache**: Make sure your local blockchain (Ganache) is running.
 
@@ -89,12 +89,10 @@ To add posts to the Social Network DApp using the Truffle console, follow these 
     truffle migrate --reset
     ```
 
-### When to Use `truffle migrate --reset`
-
-Use the `--reset` option with `truffle migrate` when you need to redeploy your smart contracts from scratch. This is useful in the following scenarios:
-- You have made changes to your smart contracts and need to redeploy them.
-- You want to reset the state of your contracts on the blockchain.
-- You are encountering issues with migrations and want to start fresh.
+    Use the `--reset` option with `truffle migrate` when you need to redeploy your smart contracts from scratch. This is useful in the following scenarios:
+    - You have made changes to your smart contracts and need to redeploy them.
+    - You want to reset the state of your contracts on the blockchain.
+    - You are encountering issues with migrations and want to start fresh.
 
 3. **Go to Local Server**: Open your browser and navigate to `http://localhost:3000`.
 
