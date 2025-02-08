@@ -1,0 +1,50 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #343a40; /* Dark background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 0.5rem 1rem; /* Add padding for better spacing */
+}
+
+.navbar-brand {
+    color: #ffffff; /* White text color */
+    font-weight: bold;
+    font-size: 1.25rem; /* Increase font size */
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand:hover {
+    color: #dcdcdc; /* Light gray on hover */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff; /* White text color */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #dcdcdc; /* Light gray on hover */
+}
+
+#account {
+    color: #ffffff; /* White text color for the address */
+    margin-left: 10px; /* Space between avatar and address */
+    font-size: 0.875rem; /* Slightly smaller font size */
+}
+
+.avatar {
+    border-radius: 50%; /* Make the avatar circular */
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; /* Space between avatar and address */
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+}
